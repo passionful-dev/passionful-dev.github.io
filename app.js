@@ -52,7 +52,7 @@ const app = Vue.createApp({
         {
           cardImage: './images/ispSubscription-pic.jpg',
           cardHeader: 'ISP Subscription System',
-          cardSubHeader: '- Java, MySQL, Swing.',
+          cardSubHeader: '- Java, MySQL.',
           contentList: [
             { cardContent: 'It is a dynamically acknowledging subscription system built with priority in analysis of client feedback, making it easier to decide the type of service the new client will be using.' },
           ], id: 1
