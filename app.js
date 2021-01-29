@@ -26,7 +26,7 @@ const app = Vue.createApp({
             { cardContent: 'Java: Spring Boot, WebFlux, Kafka, JUnit, Mockito, Microservices.' },
             { cardContent: 'JavaScript: NodeJS, Express, EJS, Express-GraphQL, Apollo Server.' },
             { cardContent: '.Net: ASP.Net Core, Web API, WPF.' },
-            { cardContent: 'Python: Flask, Django, DRF, Apollo Server.' },
+            { cardContent: 'Python: Flask, Django, DRF.' },
           ], id: 2
         },
         {
