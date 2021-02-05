@@ -73,13 +73,12 @@ const app = Vue.createApp({
             { cardContent: 'Consists of a dashboard and a notification system, for the new activity, when a new user joined the system, or new project is made. Data CRUD behaviour with backend is displayed in a sleek designed user interface.' },
           ], id: 3
         },
-        
         {
-          cardImage: './images/kioskSystem-pic.jpg',
-          cardHeader: 'Kiosk System',
-          cardSubHeader: '- Python, Django, PostgreSQL.',
+          cardImage: './images/parcelDelivery-pic.jpg',
+          cardHeader: 'Parcel Delivery System',
+          cardSubHeader: '- Java, Android, SQLite.',
           contentList: [
-            { cardContent: 'Developed a kiosk database app for Inventory and Cashier system. Items, properties, and Suppliers data on Inventory; and total number of items sold wrt the Cashier information on these system respectively.' },
+            { cardContent: 'This project is a system to approve if the item delivery was a success or not, and in addition the purpose of the visit to the customer was recorded and displayed as a report.' },        
           ], id: 4
         },
         {
@@ -91,11 +90,11 @@ const app = Vue.createApp({
           ], id: 5
         },
         {
-          cardImage: './images/parcelDelivery-pic.jpg',
-          cardHeader: 'Parcel Delivery System',
-          cardSubHeader: '- Java, Android, SQLite.',
+          cardImage: './images/kioskSystem-pic.jpg',
+          cardHeader: 'Kiosk System',
+          cardSubHeader: '- Python, Django, PostgreSQL.',
           contentList: [
-            { cardContent: 'This project is a system to approve if the item delivery was a success or not, and in addition the purpose of the visit to the customer was recorded and displayed as a report.' },
+            { cardContent: 'Developed a kiosk database app for Inventory and Cashier system. Items, properties, and Suppliers data on Inventory; and total number of items sold wrt the Cashier information on these system respectively.' },
           ], id: 6
         },
         {
