@@ -60,7 +60,7 @@ const app = Vue.createApp({
         {
           cardImage: './images/instalike-pic.jpg',
           cardHeader: 'Insta-like Posting API',
-          cardSubHeader: '- Apollo Server, Client, Nodejs, JWT, Reactjs, MongoDB.',
+          cardSubHeader: '- Apollo Server, Client, GraphQL, Nodejs, JWT, Reactjs, MongoDB.',
           contentList: [
             { cardContent: 'A GraphQL system that improved the performance of the API, creating a Instagram like posting system where users can message, comment and like on the post.' },
           ], id: 2
