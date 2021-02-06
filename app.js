@@ -56,22 +56,14 @@ const app = Vue.createApp({
           contentList: [
             { cardContent: 'It is a dynamically acknowledging subscription system built with priority in analysis of client feedback, making it easier to decide the type of service the new client will be using.' },
           ], id: 1
-        },
-        {
-          cardImage: './images/instalike-pic.jpg',
-          cardHeader: 'Insta-like Posting API',
-          cardSubHeader: '- Apollo Server, Client, GraphQL, Nodejs, JWT, Reactjs, MongoDB.',
-          contentList: [
-            { cardContent: 'A GraphQL system that improved the performance of the API, creating a Instagram like posting system where users can message, comment and like on the post.' },
-          ], id: 2
-        },
+        },        
         {
           cardImage: './images/projectBoard-pic.jpg',
           cardHeader: 'Project Board',
           cardSubHeader: '- React, Redux, Thunk, Nodejs, Express, MySQL.',
           contentList: [
             { cardContent: 'Consists of a dashboard and a notification system, for the new activity, when a new user joined the system, or new project is made. Data CRUD behaviour with backend is displayed in a sleek designed user interface.' },
-          ], id: 3
+          ], id: 2
         },
         {
           cardImage: './images/parcelDelivery-pic.jpg',
@@ -79,7 +71,23 @@ const app = Vue.createApp({
           cardSubHeader: '- Java, Android, SQLite.',
           contentList: [
             { cardContent: 'This project is a system to approve if the item delivery was a success or not, and in addition the purpose of the visit to the customer was recorded and displayed as a report.' },        
+          ], id: 3
+        },
+        {
+          cardImage: './images/instalike-pic.jpg',
+          cardHeader: 'Insta-like Posting API',
+          cardSubHeader: '- Apollo Server, Client, GraphQL, Nodejs, JWT, Reactjs, MongoDB.',
+          contentList: [
+            { cardContent: 'A GraphQL system that improved the performance of the API, creating a Instagram like posting system where users can message, comment and like on the post.' },
           ], id: 4
+        },        
+        {
+          cardImage: './images/kioskSystem-pic.jpg',
+          cardHeader: 'Kiosk System',
+          cardSubHeader: '- Python, Django, PostgreSQL.',
+          contentList: [
+            { cardContent: 'Developed a kiosk database app for Inventory and Cashier system. Items, properties, and Suppliers data on Inventory; and total number of items sold wrt the Cashier information on these system respectively.' },
+          ], id: 5
         },
         {
           cardImage: './images/boligProspektet-pic.jpg',
@@ -87,14 +95,6 @@ const app = Vue.createApp({
           cardSubHeader: '- C#, ASP.Net Core, Entity Framework, Razor Pages, ScrapySharp, HTMLAgilityPack.',
           contentList: [
             { cardContent: 'Data scrapping is the main objective of this project, which is an attempt to make the life easier for searching rental apartments in Denmark.' },
-          ], id: 5
-        },
-        {
-          cardImage: './images/kioskSystem-pic.jpg',
-          cardHeader: 'Kiosk System',
-          cardSubHeader: '- Python, Django, PostgreSQL.',
-          contentList: [
-            { cardContent: 'Developed a kiosk database app for Inventory and Cashier system. Items, properties, and Suppliers data on Inventory; and total number of items sold wrt the Cashier information on these system respectively.' },
           ], id: 6
         },
         {
