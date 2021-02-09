@@ -1,4 +1,13 @@
-/* Devices less 371px, responsive not handled */
+/* Devices less 281px, responsive not handled */
+
+/* Zoom to make it look better, in very very small devices */
+/* less than or equal to given pixel */
+@media only screen and (max-width: 380px){
+  .contents,
+  .dashboard{
+    zoom: 80%;
+  }  
+}
 
 
 /* Show only icons on links (Very small mobile view) */
@@ -146,21 +155,21 @@ and (min-width: 649px) {
   }
 
   .user img{
-    margin: .5rem 0 0 25px;
+    margin: 7px 0 0 2.3rem;
   }
   .user h3{
-    margin: -5px 2.7rem 0 19px;
-    font-size: 13px;
+    margin: -5px 0 0 9px;
+    font-size: 12px;
     text-transform: uppercase;
     color: var(--h2-color);
   }
   .user p{
-    display: none;
-    overflow: hidden;
+    margin: -5px 0 0 1.3rem;
+    visibility: visible;
   }
 
   .link{
-    padding: 1rem 0 1rem 1.5rem;
+    padding: 1rem 0 1rem 1.0rem;
   }
   
   .links{
@@ -200,6 +209,24 @@ and (min-width: 649px) {
     margin: 5px 0 15px 0;
   }  
 
+}
+
+/* Adjust User position */
+/* within specific range (649 to 690) */
+@media only screen and (max-width: 690px)
+and (min-width: 649px) {
+  .user img{
+    margin: .5rem 0 0 10px;    
+  }
+  .user h3{
+    margin: -5px 0 0 9px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--h2-color);
+  }
+  .user p{
+    display: none;
+  }
 }
 
 
@@ -288,11 +315,15 @@ and (min-width: 796px) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
     border-radius: 2rem;
   }
   
+  .user img{
+    margin: 1rem 0 0;
+  }
+
   .link{
     display: flex;
     padding: 1rem 0 1rem 1rem;
@@ -337,6 +368,25 @@ and (min-width: 796px) {
   }
 }
 
+/* Hide it height wise also*/
+/* less than or equal to given pixel */
+@media only screen and (max-height: 698px){
+  .circle1, .circle2{
+    visibility: hidden;
+  }
+}
+
+
+/* Zoom to make it look better */
+/* less than or equal to given pixel */
+@media only screen and (max-height: 769px){
+  .glass,
+  .circle1,
+  .circle2{
+    zoom: 90%;
+  }  
+}
+
 
 /* Full view */
 /* greater than or equal to given pixel */
@@ -369,4 +419,3 @@ and (min-width: 796px) {
     width: 70%;
   }
 }
-
