@@ -3,10 +3,10 @@
 /* Zoom to make it look better, in very very small devices */
 /* less than or equal to given pixel */
 @media only screen and (max-width: 380px){
-  .contents,
+  /* .contents,
   .dashboard{
-    zoom: 80%;
-  }  
+    zoom: 100%;
+  }   */
 }
 
 
@@ -72,6 +72,13 @@
 
   .more-button, .back-button{
     margin: 5px 0 15px 0;
+  }
+
+  .card-contact{
+    zoom: 80%;
+  }
+  #keywords{
+    zoom: 80%;
   }
 }
 
